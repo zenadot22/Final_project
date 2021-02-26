@@ -19,7 +19,7 @@ body{
   /* color: #f2f2f2; */
   color:white;
   text-align: center;
-  padding: 40px 50px;
+  padding: 50px 70px;
   text-decoration: none;
   font-family: 'Cormorant Garamond' , serif; 
   font-size: 140%;
@@ -27,14 +27,14 @@ body{
 }
 
 /* Change background on mouse-over */
-.navbar a:hover {
+/* .navbar a:hover {
   background: white;
   color:#012A4A;
-}
+} */
 .navbar img{
   float: left;
-  width: 9%;
-  height: 9%;
+  width: 12%;
+  height: 12%;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -71,7 +71,7 @@ p{
   font-size:20px;
 }
 h1{
-  margin-top: 120px;
+  margin-top: 200px;
   text-align: center;
 }
   
@@ -113,14 +113,16 @@ button:hover, a:hover {
     padding:0;
     list-style:none;
     line-height:1.6;
-    font-size:14px;
+    font-size:25px;
     margin-bottom:0;
+
   }
   
   .footer-dark ul a {
     color:inherit;
     text-decoration:none;
     opacity:0.6;
+    font-size:20px;
     text-align: center;
   }
   

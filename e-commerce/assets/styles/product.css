@@ -15,11 +15,13 @@ body{
   /* Links inside the navbar */
 .navbar a {
     float: left;
+    top: 0;
+    right: 20px;
     display: block;
     /* color: #f2f2f2; */
     color:white;
     text-align: center;
-    padding: 40px 50px;
+    padding: 50px 70px;
     text-decoration: none;
     font-family: 'Cormorant Garamond' , serif; 
     font-size: 140%;
@@ -27,10 +29,16 @@ body{
 }
   
 /* Change background on mouse-over */
-.navbar a:hover {
+/* .navbar a:hover {
     background: white;
     color:#012A4A;
+} */
+.navbar img{
+    float: left;
+    width: 9%;
+    height: 9%;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px; 
@@ -180,4 +188,7 @@ body{
     opacity:0.3;
     font-size:13px;
     margin-bottom:0;
+}
+.my-descri{
+    text-align: center
 }

@@ -19,7 +19,7 @@ body{
     /* color: #f2f2f2; */
     color:white;
     text-align: center;
-    padding: 40px 50px;
+    padding: 50px 70px;
     text-decoration: none;
     font-family: 'Cormorant Garamond' , serif; 
     font-size: 140%;
@@ -27,24 +27,79 @@ body{
 }
   
 /* Change background on mouse-over */
-.navbar a:hover {
+/* .navbar a:hover {
     background: white;
     color:#012A4A;
-}
+} */
 .navbar img{
     float: left;
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
 }
-.video{
-    margin-top: 180px;
-    justify-content: center;
+.video iframe{
+    margin-top: 150px;
+    
 }
-.video h1{
+/* .video h1{
     margin-top: 150px;
     text-align: center;
+} */
+.about{
+  text-align: justify;
+  text-align: center;
+  font-size: 22px;
 }
-.footer-dark {
+
+  .contactback-pics{
+    overflow: hidden;
+    justify-content: center;
+    height: 100%;
+    width:50%;
+    margin:auto;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+   } 
+   /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+    width: 100%; /* Full width */
+     padding: 12px; /*Some padding  */
+     border: 1px solid grey; /*Gray border */ 
+     border-radius: 4px; /*Rounded borders */
+     box-sizing: border-box;/* Make sure that padding and width stays in place */
+     margin-top: 6px; /*Add a top margin */
+     margin-bottom: 16px;/* Bottom margin */
+     resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+  }  
+  
+  /* Style the submit button with a specific background color etc */
+   input[type=submit] {
+    background-color: #012A4A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    justify-content: center;
+   } 
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+   input[type=submit]:hover {
+    background-color: #012A4A;
+    color: white;
+  } 
+  
+  /* Add a background color and some padding around the form */
+   .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }   
+  h1{
+    text-align: center;
+  }
+  .footer-dark {
     padding:50px 0;
     color:white;
     background-color:#013A63;
@@ -54,15 +109,18 @@ body{
     margin-top:0;
     margin-bottom:12px;
     font-weight:bold;
-    font-size:16px;
+    font-size:30px;
+    text-align: center;
+    text-decoration: underline;
   }
   
   .footer-dark ul {
     padding:0;
     list-style:none;
     line-height:1.6;
-    font-size:14px;
+    font-size:22px;
     margin-bottom:0;
+    text-align: center;
   }
   
   .footer-dark ul a {
@@ -70,6 +128,8 @@ body{
     text-decoration:none;
     opacity:0.6;
     text-align: center;
+    font-size: 22px;
+  
   }
   
   .footer-dark ul a:hover {
@@ -94,6 +154,7 @@ body{
   }
   
   .footer-dark .item.text p {
+    text-align:center;
     opacity:0.6;
     margin-bottom:0;
   }
@@ -123,14 +184,14 @@ body{
     opacity:0.75;
   }
   
-  .footer-dark .item.social > a:hover {
+.footer-dark .item.social > a:hover {
     opacity:0.9;
   }
   
-  .footer-dark .copyright {
+.footer-dark .copyright {
     text-align:center;
     padding-top:24px;
     opacity:0.3;
-    font-size:13px;
+    font-size:22px;
     margin-bottom:0;
   }
