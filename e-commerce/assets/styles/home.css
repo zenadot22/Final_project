@@ -10,6 +10,7 @@ body{
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 1;
 }
 
 /* Links inside the navbar */
@@ -29,14 +30,14 @@ body{
 }
 .navbar img{
   float: left;
-  width: 12%;
-  height: 12%;
+  width: 10%;
+  height: 10%;
 
 }
 .button-nav{
-  /* float: left;
+  float: left;
   top: 0;
-  right: 20px; */
+  right: 20px; 
   background-color: white;
   color:#012A4A;
   border: 2px solid #012A4A;
@@ -46,10 +47,11 @@ body{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 42px 2px;
   margin-bottom: 5px;
   transition-duration: 0.4s;
   cursor: pointer;
+  font-family:'Cormorant Garamond' , serif;  
   
 }
 .button-nav:hover{
@@ -125,7 +127,7 @@ body{
     opacity: 1;
   }
   
-  .text {
+  /* .text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -136,7 +138,7 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-  }
+  } */
   .wrappster{
   
      display: flex;
