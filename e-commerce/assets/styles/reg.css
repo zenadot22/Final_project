@@ -1,9 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 body{
-  background-color: white;
+  background-color:white;
   font-family: 'Cormorant Garamond' ,serif;
+  width: 30%;
+  margin: auto;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #012A4A;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  /* color: #f2f2f2; */
+  color:white;
+  text-align: center;
+  padding: 50px 70px;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond' , serif; 
+  font-size: 140%;
+
+}
+.navbar img{
+  float: left;
+  width: 10%;
+  height: 10%;
+}
+.background{
+  width: 120%;
+  background-color: #012A4A;
+  padding: 22px;
+  
+}
+.contactback-pics label{
+color: white;
+font-size: 22px;
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
      width: 100%; /* Full width */
@@ -14,18 +52,20 @@ input[type=text], select, textarea {
      margin-top: 6px; /*Add a top margin */
      margin-bottom: 20px;/* Bottom margin */
      resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+     justify-items: center;
+     
   }  
   
   /* Style the submit button with a specific background color etc */
    input[type=submit] {
-    background-color: #012A4A;
-    color: white;
+    background-color: white;
+    color:#012A4A;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer; 
-    justify-content: center;
-    text-align: center;
+
+    
    } 
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -33,7 +73,6 @@ input[type=text], select, textarea {
     background-color: #012A4A;
     color: white;
   } 
-  
   /* Add a background color and some padding around the form */
    .container {
     border-radius: 5px;
@@ -41,6 +80,7 @@ input[type=text], select, textarea {
     padding: 20px;
   }   
   h1{
-    margin-top: 30px;
+    color: #012A4A;
+    margin-top: 200px;
     text-align: center;
   }

@@ -7,20 +7,35 @@
     <link rel="stylesheet" href="./assets/styles/reg.css">
 </head>
 <body>
+    <div class="navbar">
+        <img src="assets/images/logo.PNG">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="product.html">Product</a>
+        <a href="products.html">Shop</a>
+    </div>
+
+
+
     <h1>Register</h1>
+    <div class="background">
     <div class = "contactback-pics">
-        <form name="contact" action="">
+        <form onsubmit="event.preventDefault(); registration();" id="user">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name..">
-        <label for="email">email</label>
-        <input type="text" id="email" name="email" placeholder="Your email-address..">
+        <input type="text" id="" name="name" >
+        <label for="email">Email</label>
+        <input type="text" id="" name="email">
         <label for="Password">Password</label>
-        <input type="text" id="placeholder" name="Password" placeholder="Your Password here">
+        <input type="text" id="" name="Password">
         <input type="submit" value="Submit">
         </div>
     
-        </form> 
-    
+        </form>
+        </div>
+        
 
+
+    
+<script src="./assets/scripts/register.js"></script>
 </body>
 </html>

@@ -92,6 +92,9 @@ body{
     background-color: #012A4A;
     color: white;
   } 
+  .contactback-pics label{
+    font-size:22px;
+  }
   
   /* Add a background color and some padding around the form */
    .container {
@@ -102,6 +105,7 @@ body{
   h1{
     margin-top: 30px;
     text-align: center;
+    font-size:50px;
   }
   .footer-dark {
     padding:50px 0;
