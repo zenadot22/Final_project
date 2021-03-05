@@ -51,7 +51,7 @@ allowfullscreen></iframe></center>
 <hr>
     <h1>Contact Us</h1>
     <div class = "contactback-pics">
-        <form name="contact" action="">
+        <form onsubmit="event.preventDefault(); contacting()" id="sending">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name..">
         <label for="email">email</label>
@@ -62,7 +62,7 @@ allowfullscreen></iframe></center>
         </div>
     
         </form> 
-    
+        <script src="./assets/scripts/contact.js"></script>
 
 
 
