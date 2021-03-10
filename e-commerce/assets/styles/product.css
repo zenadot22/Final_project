@@ -39,17 +39,17 @@ body{
     height: 10%;
 }
 
-.card {
+ /* .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px; 
     margin: auto;
     text-align: center;
     margin-top: 80px;
     display: table-cell;
-    display: table-row;
+    display: table-row; */
     /* display:inline-block;  */
   }
-  .card{
+  /* .card{
     display:inline-block;
   }
   
@@ -98,7 +98,75 @@ body{
     
   button:hover, a:hover {
     opacity: 0.7;
-    }
+    }  */
+
+/* shopping cart */
+.cart-container {
+  margin-bottom: 2000px;
+  border:1px solid #E0E4CC;
+  border-radius:5px;
+  margin-top:1em;
+  padding:1em;
+}
+button, input[type="submit"] { 
+    border:1px solid; 
+    color:white; 
+    background: #1E6091; 
+    padding:0.6em 1em;
+    font-size:1em; 
+    line-height:1; 
+    border-radius: 1.2em;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
+    background: white;
+    border-color:#1E6091;
+    color:#1E6091;
+    cursor: pointer;
+}
+table {
+  margin-bottom:1em;
+  border-collapse:collapse;
+}
+table td, table th {
+  text-align:left;
+  padding:0.25em 1em;
+  border-bottom:1px solid #E0E4CC;
+}
+#carttotals {
+  margin-right:0;
+  margin-left:auto;
+}
+.cart-buttons {
+  width:auto;
+  margin-right:0;
+  margin-left:auto;
+  display:flex;
+  justify-content:flex-end;
+  padding:1em 0;
+}
+#emptycart {
+  margin-right:1em;
+}
+table td:nth-last-child(1) {
+  text-align:right;
+}
+.message {
+  border-width: 1px 0px;
+  border-style:solid;
+  border-color:#A7DBD8;
+  color:#679996;
+  padding:0.5em 0;
+  margin:1em 0;
+}
+h1{
+  margin-top: 200px;
+  font-size: 50px;
+}
+
+
+
+  
 
 .footer-dark {
     padding:50px 0;
