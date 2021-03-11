@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="./assets/styles/reg.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/styles/login.css">
 </head>
 <body>
     <nav class="navbar">
@@ -14,7 +12,7 @@
     
         <ul class="nav-links">
             <li class="nav-link"><a href="index.html">Home</a></li>
-            <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="about.html">About </a></li>
             <li class="nav-link"><a href="products.html">Shop</a></li>
             <li class="nav-link"><a href="product.html">Cart</a></li>
             <a href="login.html"><button class="button-nav">LOGIN</button></a>
@@ -24,13 +22,10 @@
         </nav>
 
 
-
-    <h1>Register</h1>
+    <h1>Login</h1>
     <div class="background">
     <div class = "contactback-pics">
-        <form onsubmit="event.preventDefault(); registration();" id="user">
-        <label for="name">Name</label>
-        <input type="text" id="" name="name" >
+        <form onsubmit="event.preventDefault(); signIn()" id="myid">
         <label for="email">Email</label>
         <input type="text" id="" name="email">
         <label for="Password">Password</label>
@@ -40,14 +35,6 @@
     
         </form>
         </div>
-        
-
-
-    
-<script src="./assets/scripts/register.js"></script>
-
-
-
-
+    <script src="assets/scripts/login.js"></script>
 </body>
 </html>

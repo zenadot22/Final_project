@@ -3,50 +3,90 @@ body{
   background-color: white;
   font-family: 'Cormorant Garamond' ,serif;
 }
-/* The navigation bar */
+
 .navbar {
-  overflow: hidden;
-  background-color: #012A4A;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#012A4A;
+  padding: 10px 10%;
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 100vw;
+  height: 16vh;
   z-index: 1;
+  
 }
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
+.nav-links {
+  padding:10px 150px;
+  display: flex;
+  list-style-type: none;
+  transition: all 0.3s linear;
+  
+}
+.nav-link{
+  display: grid;
+  place-items: center;
+}
+.nav-link a {
   top: 0;
   right: 20px;
-  display: block;
-  color:white;
-  text-align: center;
-  padding: 48px 50px;
+  align-items: center;
   text-decoration: none;
-  font-family: 'Cormorant Garamond' , serif; 
-  font-size: 140%;
+  color:white;
+  padding: 40px;
+  transition: color 0.3s ease-in-out;
+  font-size: 25px;
+  
+}
 
+.nav-link a:hover {
+  color: #012A4A;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .hamburger {
+    display: block;
+  }
+
+.nav-links {
+  width: 0px;
+  overflow: hidden;
+  position: fixed;
+  top: 40px;
+  background: black;
+  left: 0;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  }
 }
 .navbar img{
   float: left;
-  width: 11%;
-  height: 11%;
+  width: 10vw;
+  height: 15vh;
 
 }
-.button-nav{
+ .button-nav{ 
   /* float: left; */
-  top: 0;
+   top: 0;
   right: 20px; 
   background-color: white;
   color:#012A4A;
   border: 2px solid #012A4A;
   border: none;
-  padding: 16px 32px;
+  padding: 20px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 42px 2px;
+  font-size: 20px;
+  margin: 20px 2px;
   margin-bottom: 5px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -59,20 +99,32 @@ body{
 }
 .reg-button{
   top: 0;
-  right:5px;
+  right:10px;
   background-color: white;
   color:#012A4A;
   border: 2px solid #012A4A;
   border: none;
-  padding: 16px 32px;
+  padding: 20px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 20px;
+  margin: 20px 2px;
+  margin-bottom: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .reg-button:hover{
   background-color:#012A4A;
-  color:white;
+  color:white; 
+} 
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Oswald', sans-serif;
 }
+
+
 .para{
   font-size:500px;
   text-align: center;
@@ -80,7 +132,6 @@ body{
 }
 
 .shop-button{
-  /* float: left; */
   top: 0;
   right: 20px; 
   background-color: #012A4A;
@@ -99,6 +150,7 @@ body{
   font-family:'Cormorant Garamond' , serif;
   justify-content: center;
   margin: auto;
+  align-items: center;
 }
 .shop-button:hover{
   background-color:white;
@@ -117,62 +169,6 @@ body{
     text-align: center;
     font-size: 50px;
   }
-
-  .cover{
-    margin-top: 25px;
-    display: grid;
- 
-    grid-template-columns: repeat(3, 450px);
-     
-    grid-auto-rows: auto;  
-     
-     grid-gap: 1rem; 
-    justify-content: center;
-  }
-  .pix{
-    display:flex; /* block */
-    flex-direction: row;
-    width: 80%;
-    height: 80%;   /* auto */
-  }
-  .picture{
-    display: flex;
-
-  }
-
-  .pics {
-    position: relative;  /*position was relative   */
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-  }
-  
-.image {
-    display:flex; /* block */
-    flex-direction: row;
-    width: 80%;
-    height: 80%;   /* auto */
-    
-  }
-  
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 80%;
-  width: 80%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color:grey;
-
-  }
-  
-  .pics:hover .overlay {
-    opacity: 1;
-  }
-  
   .wrappster{
     display: flex;
     flex-wrap: wrap;
@@ -294,6 +290,16 @@ body{
   text-align: center;
   justify-content: center;
   z-index: 1;
+  
+}
+.slide{
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding:50px 16px;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
 }
 /* Carousel Carets */
 #carousel #carousel-left,
@@ -307,7 +313,7 @@ body{
 }
 #carousel #carousel-left:hover,
 #carousel #carousel-right:hover {
-  color: black;
+  color: grey;
 }
 /* Carousel Grid Item Positioning */
 #carousel #carousel-left {
@@ -345,7 +351,7 @@ body{
 /* Carousel Slide Styles */
 .carousel-slide {
   opacity: 0;
-  z-index: -2;
+  z-index: 1;
   transition: all 0.2s linear;
   position: absolute;
   top: 0;

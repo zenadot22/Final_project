@@ -7,7 +7,7 @@ let slideContent = [
 {
 
 title: "I can't break these chains that I hold",
-price:"R0.00",
+//price:"R0.00",
 image: "assets/images/project18-removebg-preview.png"
 
 

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
 body{
-    background-color: white;
-    font-family: 'Cormorant Garamond' ,serif;
+  background-color:white;
+  font-family: 'Cormorant Garamond' ,serif;
+  
 }
 .navbar {
   display: flex;
@@ -118,63 +119,54 @@ body{
   background-color:#012A4A;
   color:white; 
 } 
-
-
-.video iframe{
-    margin-top: 170px;
-    
+.background{
+  width: 100%;
+  /* background-color: #012A4A; */
+  padding: 22px;
+  justify-content: center;
+  
 }
-.about{
-  text-align: justify;
-  text-align: center;
-  font-size: 22px;
+.contactback-pics label{
+color: black;
+font-size: 22px;
 }
-
-  .contactback-pics{
-    overflow: hidden;
-    justify-content: center;
-    height: 100%;
-    width:50%;
-    margin:auto;
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; 
-   } 
-   /* Style inputs with type="text", select elements and textareas */
-    input[type=text], select, textarea {
-    width: 100%; /* Full width */
-     padding: 12px; /*Some padding  */
+.contactback-pics{
+  width: 30%;
+  margin: auto;
+  padding: 18px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+     width: 100%; /* Full width */
+     padding: 13px; /*Some padding  */
      border: 1px solid grey; /*Gray border */ 
      border-radius: 4px; /*Rounded borders */
      box-sizing: border-box;/* Make sure that padding and width stays in place */
      margin-top: 6px; /*Add a top margin */
-     margin-bottom: 16px;/* Bottom margin */
+     margin-bottom: 20px;/* Bottom margin */
      resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
+     justify-items: center;
+     
   }  
   
   /* Style the submit button with a specific background color etc */
    input[type=submit] {
-    background-color: #012A4A;
-    color: white;
+    background-color:#012A4A;
+    color:white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer; 
-    justify-content: center;
-    text-align: center;
-    font-size: 22px;
+    font-size: 20px;
+
+    
    } 
   
   /* When moving the mouse over the submit button, add a darker green color */
    input[type=submit]:hover {
-    background-color:white;
+    background-color: white;
     color: #012A4A;
   } 
-  .contactback-pics label{
-    font-size:22px;
-  }
-  
   /* Add a background color and some padding around the form */
    .container {
     border-radius: 5px;
@@ -182,104 +174,9 @@ body{
     padding: 20px;
   }   
   h1{
-    margin-top: 30px;
+    color: black;
+    margin-top: 150px;
     text-align: center;
-    font-size:50px;
-  }
-  .footer-dark {
-    padding:50px 0;
-    color:white;
-    background-color:#013A63;
-    margin-top: 100px;
-  }
-  
-  .footer-dark h3 {
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:30px;
-    text-align: center;
-    text-decoration: underline;
-  }
-  
-  .footer-dark ul {
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:22px;
-    margin-bottom:0;
-    text-align: center;
-  }
-  
-  .footer-dark ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.6;
-    text-align: center;
-    font-size: 22px;
-  
-  }
-  
-  .footer-dark ul a:hover {
-    opacity:0.8;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
-    }
-  }
-  
-  .footer-dark .item.text {
-    margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item.text {
-      margin-bottom:0;
-    }
-  }
-  
-  .footer-dark .item.text p {
-    text-align:center;
-    opacity:0.6;
-    margin-bottom:0;
-  }
-  
-  .footer-dark .item.social {
-    text-align:center;
-  }
-  
-  @media (max-width:991px) {
-    .footer-dark .item.social {
-      text-align:center;
-      margin-top:20px;
-    }
-  }
-  
-  .footer-dark .item.social > a {
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:0 8px;
-    color:#fff;
-    opacity:0.75;
-  }
-  
-.footer-dark .item.social > a:hover {
-    opacity:0.9;
-  }
-  
-.footer-dark .copyright {
-    text-align:center;
-    padding-top:24px;
-    opacity:0.3;
-    font-size:22px;
-    margin-bottom:0;
+    font-size: 50px;
+
   }
