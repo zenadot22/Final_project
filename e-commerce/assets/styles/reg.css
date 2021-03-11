@@ -22,7 +22,7 @@ body{
   /* color: #f2f2f2; */
   color:white;
   text-align: center;
-  padding: 50px 70px;
+  padding: 48px 50px;
   text-decoration: none;
   font-family: 'Cormorant Garamond' , serif; 
   font-size: 140%;
@@ -30,9 +30,48 @@ body{
 }
 .navbar img{
   float: left;
-  width: 10%;
-  height: 10%;
+  width: 11%;
+  height: 11%;
 }
+.button-nav{
+  /* float: left; */
+  top: 0;
+  right: 20px; 
+  background-color: white;
+  color:#012A4A;
+  border: 2px solid #012A4A;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 42px 2px;
+  margin-bottom: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button-nav:hover{
+  background-color:#012A4A;
+  color:white;
+}
+.reg-button{
+  top: 0;
+  right:5px;
+  background-color: white;
+  color:#012A4A;
+  border: 2px solid #012A4A;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.reg-button:hover{
+  background-color:#012A4A;
+  color:white;
+}
+
 .background{
   width: 100%;
   /* background-color: #012A4A; */

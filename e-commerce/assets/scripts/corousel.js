@@ -6,26 +6,26 @@ let bulletsContainer = document.getElementById("carousel-bullets");
 let slideContent = [
 {
 
-title: "lorem",
-price:"R0 00",
-image: "assets/images/project18.jpg"
+title: "I can't break these chains that I hold",
+price:"R0.00",
+image: "assets/images/project18-removebg-preview.png"
 
 
 },
 {
-title: "lorem",
-price:"R0 00",
-image: "assets/images/project26.jpg"
+title: "adorable is her middle name",
+// price:"R0 00",
+image: "assets/images/project26-removebg-preview.png"
 },
 {
-title: "lorem",
-price: "R0 00",
-image: "assets/images/project16.jpg"
+title: "And so a star was born....",
+//price: "R0 00",
+image: "assets/images/project12-removebg-preview.png"
 },
 {
-title: "lorem",
-price:"R0 00",
-image:"assets/images/project28.jpg"
+title: "This is me!",
+//price:"R0 00",
+image:"assets/images/project28-removebg-preview.png"
 }
 
 ];
