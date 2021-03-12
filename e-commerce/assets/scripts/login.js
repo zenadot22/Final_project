@@ -1,33 +1,33 @@
 let users = [];
 
-fetch("http://127.0.0.1:5000/show-items/")
+fetch("https://pacific-falls-79530.herokuapp.com/show-items/")
 .then((res) => res.json())
 .then((data) => {
-    console.log(data)
-    users =data
+    console.log(data);
+    users =data;
 })
 
 function signIn(){
-    const form =document.getElementById("myid")
-    let inputs =form.getElementsByTagName("input")
+    const form =document.getElementById("myid");
+    let inputs =form.getElementsByTagName("input");
 
-    let = mail = inputs[0].value
-    let = pasword = inputs[1].value
-    console.log(mail)
-    console.log(pasword)
+    let = email = inputs[0].value;
+    let = password = inputs[1].value;
+    console.log(email);
+    console.log(password);
 
     let loggedIn = users.filter((user)=>{
-        return (
-            user.password == pasword && user.email == mail
-        );
+        return user.email == email && user.password== password;
     });
     console.log(loggedIn);
 
     if(loggedIn.length > 0) {
+        localStorage.setItem("user",JSON.stringify(loggedIn[0]))
+        JSON.parse(localStorage.getItem("user"))
         alert("You are now logged in")
         window.location.href = "./products.html"
     } else {
-        alert("credintials invalid")
+        alert("credintials invalid");
     }
 };
 

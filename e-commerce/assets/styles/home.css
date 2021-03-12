@@ -126,6 +126,7 @@ html {
 
 
 .para{
+  margin-top: 1px;
   font-size:500px;
   text-align: center;
   font-size: 27px;
@@ -156,18 +157,18 @@ html {
   background-color:white;
   color:#012A4A;
 }
-
-.tag-line{
-  margin-top: 250px;
-  text-align: center;
-  font-size:40px;
-}
-  
   .header{
     margin-top: 200px;
     color: #012A4A;
     text-align: center;
     font-size: 50px;
+  }
+  .header h1{
+    font-size:10vw;
+  }
+  .header p{
+    font-size:5vw;
+    margin-top: 10px;
   }
   .wrappster{
     display: flex;
@@ -278,7 +279,7 @@ html {
   /* corousel */
   /* Carousel Element */
 #carousel {
-  margin-top: 200px;
+  margin-top: 70px;
   display: grid;
   grid-template-columns: 30px 70vw 30px;
   grid-template-rows: 15fr 1fr;
@@ -296,7 +297,7 @@ html {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding:50px 16px;
+  padding:-5px 10px;
   justify-content: space-between;
   width: 100vw;
   height: 100vh;

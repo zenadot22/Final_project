@@ -7,24 +7,24 @@ let slideContent = [
 {
 
 title: "I can't break these chains that I hold",
-//price:"R0.00",
+price:"R780.00",
 image: "assets/images/project18-removebg-preview.png"
 
 
 },
 {
 title: "adorable is her middle name",
-// price:"R0 00",
+price:"R550.55",
 image: "assets/images/project26-removebg-preview.png"
 },
 {
 title: "And so a star was born....",
-//price: "R0 00",
+price: "R1500.00",
 image: "assets/images/project12-removebg-preview.png"
 },
 {
 title: "This is me!",
-//price:"R0 00",
+price:"R1250.00",
 image:"assets/images/project28-removebg-preview.png"
 }
 
